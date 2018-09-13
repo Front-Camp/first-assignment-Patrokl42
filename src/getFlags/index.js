@@ -6,7 +6,10 @@
  * getFlags(arr); // [1, 2, 3, 4, 5, 6]
  */
 const getFlags = arr => {
-  /* your logic here...*/
+    var sum = [];
+    for (var i = 0; i < arr.length;i++){
+        sum[i] = arr[i];
+    }
 };
 
 export default getFlags;
